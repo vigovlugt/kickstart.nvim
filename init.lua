@@ -568,6 +568,8 @@ local servers = {
   pyright = {},
   rust_analyzer = {},
   tsserver = {},
+  prettierd = {},
+  omnisharp = {},
   html = { filetypes = { 'html', 'twig', 'hbs' } },
 
   lua_ls = {
