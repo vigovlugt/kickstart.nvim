@@ -664,5 +664,7 @@ vim.g.copilot_filetypes = {
 
 vim.g.copilot_assume_mapped = true
 
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
